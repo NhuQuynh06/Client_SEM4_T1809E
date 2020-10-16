@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import './about_area.scss'
+import './about_area.scss';
+import about from '../../../Assets/about/1.png';
+import about2 from '../../../Assets/about/2.png';
 
 class AboutArea extends Component {
   render() {
@@ -11,8 +13,7 @@ class AboutArea extends Component {
               <div className="about_info">
                 <div className="section_title mb-20px">
                   <span>About Us</span>
-                  <h3>A Luxuries Hotel
-                                    with Nature</h3>
+                  <h3>A Luxuries Hotel with Nature</h3>
                 </div>
                 <p>Suscipit libero pretium nullam potenti. Interdum, blandit phasellus consectetuer dolor ornare dapibus enim ut tincidunt rhoncus tellus sollicitudin pede nam maecenas, dolor sem. Neque sollicitudin enim. Dapibus lorem feugiat facilisi faucibus et. Rhoncus.</p>
                 <a href="#" className="line-button">Learn More</a>
@@ -21,10 +22,10 @@ class AboutArea extends Component {
             <div className="col-xl-7 col-lg-7">
               <div className="about_thumb d-flex">
                 <div className="img_1">
-                  <img src="../../../Assets/about-us/about_1.png" alt=""></img>
+                  <img src={about} />
                 </div>
                 <div className="img_2">
-                  <img src="../Assets/about-us/about_2.png" alt=""></img>
+                <img src={about2} />
                 </div>
               </div>
             </div>

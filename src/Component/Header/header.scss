@@ -81,6 +81,7 @@
 
               &:hover {
                 color: #fff;
+                text-decoration: none;
               }
             }
           }
@@ -185,6 +186,7 @@
 
             &:hover {
               color: #fff;
+              text-decoration: none;
             }
           }
 
@@ -281,11 +283,11 @@
 }
 
 .slider_bg_1 {
-  background-image: url(../Assets/images/about_banner.png);
+  background-image: url(../../Assets/banner/banner.png);
 }
 
 .slider_bg_2 {
-  background-image: url(../Assets/images/banner.png);
+  background-image: url(../../Assets/banner/banner2.png);
 }
 
 .slider_area {
