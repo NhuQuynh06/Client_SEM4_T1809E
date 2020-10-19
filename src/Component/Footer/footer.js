@@ -3,26 +3,26 @@ import './footer.scss'
 
 export const Footer = () => {
   return (
-    <footer class="footer" >
-      <div class="footer_top">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-3 col-md-6 col-lg-3">
-              <div class="footer_widget">
-                <h3 class="footer_title"> address</h3>
-                <p class="footer_text" >  200, Green road, Mongla, New Yor City USA</p>
-                <a href="#" class="line-button">Get Direction</a>
+    <footer className="footer" >
+      <div className="footer_top">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-3 col-md-6 col-lg-3">
+              <div className="footer_widget">
+                <h3 className="footer_title"> address</h3>
+                <p className="footer_text" >  200, Green road, Mongla, New Yor City USA</p>
+                <a href="#" className="line-button">Get Direction</a>
               </div>
             </div>
-            <div class="col-xl-3 col-md-6 col-lg-3">
-              <div class="footer_widget">
-                <h3 class="footer_title"> Reservation </h3>
-                <p class="footer_text" >+10 367 267 2678 reservation@montana.com</p>
+            <div className="col-xl-3 col-md-6 col-lg-3">
+              <div className="footer_widget">
+                <h3 className="footer_title"> Reservation </h3>
+                <p className="footer_text" >+10 367 267 2678 reservation@montana.com</p>
               </div>
             </div>
-            <div class="col-xl-2 col-md-6 col-lg-2">
-              <div class="footer_widget">
-                <h3 class="footer_title">
+            <div className="col-xl-2 col-md-6 col-lg-2">
+              <div className="footer_widget">
+                <h3 className="footer_title">
                   Navigation
                         </h3>
                 <ul>
@@ -33,45 +33,45 @@ export const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div class="col-xl-4 col-md-6 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="footer_title">
+            <div className="col-xl-4 col-md-6 col-lg-4">
+              <div className="footer_widget">
+                <h3 className="footer_title">
                   Newsletter
                         </h3>
-                <form action="#" class="newsletter_form">
+                <form action="#" className="newsletter_form">
                   <input type="text" placeholder="Enter your mail"></input>
                   <button type="submit" >Sign Up</button>
                 </form>
-                <p class="newsletter_text">Subscribe newsletter to get updates</p>
+                <p className="newsletter_text">Subscribe newsletter to get updates</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="copy-right_text">
-        <div class="container">
-          <div class="footer_border"></div>
-          <div class="row">
-            <div class="col-xl-8 col-md-7 col-lg-9">
-              <p class="copy_right">
+      <div className="copy-right_text">
+        <div className="container">
+          <div className="footer_border"></div>
+          <div className="row">
+            <div className="col-xl-8 col-md-7 col-lg-9">
+              <p className="copy_right">
               </p>
             </div>
-            <div class="col-xl-4 col-md-5 col-lg-3">
-              <div class="socail_links">
+            <div className="col-xl-4 col-md-5 col-lg-3">
+              <div className="socail_links">
                 <ul>
                   <li>
                     <a href="#">
-                      <i class="fa fa-facebook-square"></i>
+                      <i className="fa fa-facebook-square"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-twitter"></i>
+                      <i className="fa fa-twitter"></i>
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-instagram"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                 </ul>

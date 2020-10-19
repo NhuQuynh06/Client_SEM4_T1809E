@@ -5,6 +5,35 @@ import offer_2 from '../../../Assets/images/offers/2.png';
 import offer_3 from '../../../Assets/images/offers/3.png';
 
 class Offers extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      count: 0
+    }
+  }
+
+  increment() {
+    // value changed affter out state method
+    this.setState({
+      count: this.state.count + 1
+    },
+      () => {
+        console.log('call back funtion', this.state.count)
+      }
+    )
+    console.log('this.setState.count', this.state.count);
+
+  }
+
+  incrementFive() {
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
+    this.increment();
+  }
+
   render() {
     return (
       <section className='offers-component'>
@@ -31,13 +60,13 @@ class Offers extends React.Component {
                     <li>3 Adults & 2 Children size</li>
                     <li>Sea view side</li>
                   </ul>
-                  <a href="#" className="book_now">book now</a>
+                  <p className="book_now" onClick={() => this.increment()}>book now</p>
                 </div>
               </div>
               <div className="col-xl-4 col-md-4">
                 <div className="single_offers">
                   <div className="about_thumb">
-                  <img src={offer_2} alt=""></img>
+                    <img src={offer_2} alt=""></img>
                   </div>
                   <h3>Up to 35% savings on Club <br></br>
                           rooms and Suites</h3>
@@ -46,13 +75,13 @@ class Offers extends React.Component {
                     <li>3 Adults & 2 Children size</li>
                     <li>Sea view side</li>
                   </ul>
-                  <a href="#" className="book_now">book now</a>
+                  <p className="book_now" onClick={() => this.increment()}>book now</p>
                 </div>
               </div>
               <div className="col-xl-4 col-md-4">
                 <div className="single_offers">
                   <div className="about_thumb">
-                  <img src={offer_3} alt=""></img>
+                    <img src={offer_3} alt=""></img>
                   </div>
                   <h3>Up to 35% savings on Club <br></br>
                               rooms and Suites</h3>
@@ -61,7 +90,12 @@ class Offers extends React.Component {
                     <li>3 Adults & 2 Children size</li>
                     <li>Sea view side</li>
                   </ul>
-                  <a href="#" className="book_now">book now</a>
+                  <p className="book_now" onClick={() => this.increment()}>book now</p>
+                </div>
+              </div>
+              <div className="col-xl-12">
+                <div className="single_offers">
+                  <p className="book_now" >Cart - {this.state.count}</p>
                 </div>
               </div>
             </div>

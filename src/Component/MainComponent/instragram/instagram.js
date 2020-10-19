@@ -9,7 +9,7 @@ import instragram_5 from '../../../Assets/images/instragram/5.png'
 class Instagram extends React.Component {
   render() {
     return (
-      <section classNameName='instagram'>
+      <section className='instagram'>
         <div className="instragram_area">
           <div className="single_instagram">
             <img src={instragram_1} alt=""></img>
