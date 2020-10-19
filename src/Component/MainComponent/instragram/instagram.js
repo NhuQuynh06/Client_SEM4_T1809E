@@ -1,10 +1,10 @@
 import React from 'react';
 import './instagram.scss';
-import instragram_1 from '../../../Assets/instragram/1.png'
-import instragram_2 from '../../../Assets/instragram/2.png'
-import instragram_3 from '../../../Assets/instragram/3.png'
-import instragram_4 from '../../../Assets/instragram/4.png'
-import instragram_5 from '../../../Assets/instragram/5.png'
+import instragram_1 from '../../../Assets/images/instragram/1.png'
+import instragram_2 from '../../../Assets/images/instragram/2.png'
+import instragram_3 from '../../../Assets/images/instragram/3.png'
+import instragram_4 from '../../../Assets/images/instragram/4.png'
+import instragram_5 from '../../../Assets/images/instragram/5.png'
 
 class Instagram extends React.Component {
   render() {
