@@ -1,25 +1,40 @@
 import React from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import { Header } from './Component/Header/header';
 import { Footer } from './Component/Footer/footer';
-import AboutArea from './Component/MainComponent/about_area/about_area';
-import Instagram from './Component/MainComponent/instragram/instagram';
-import Offers from './Component/MainComponent/offers/offers';
-import Room from './Component/MainComponent/better-room/better-room';
-import ResevationAndQuery from './Component/MainComponent/reservation-query/reservation-query';
+import HomeComponent from './Component/MainComponent/homepage-component/homepage-component';
+import RoomComponent from './Component/MainComponent/room-component/room-component';
+import AboutCompoent from './Component/MainComponent/about-component/about-component';
+import BlogComponent from './Component/MainComponent/blog-component/blog-component';
+import SingleBlogComponent from './Component/MainComponent/single-blog-component/single-blog-component';
+import ElementComponent from './Component/MainComponent/element-component/element-component';
+import ContactComponent from './Component/MainComponent/contact-component/contact-component';
 
 function App() {
   return (
-    <div className="App">
-      <Header></Header>
-      <AboutArea></AboutArea>
-      <Offers></Offers>
-      <Room></Room>
-      <ResevationAndQuery></ResevationAndQuery>
-      <Instagram></Instagram>
-      <Footer></Footer>
-    </div>
+    <Router>
+      <div className="App">
+        <Header></Header>
+        <Switch>
+          <Route path='/' exact component={HomeComponent}></Route>
+          <Route path='/room' exact component={RoomComponent}></Route>
+          <Route path='/about' exact component={AboutCompoent}></Route>
+          <Route path='/blog' exact component={BlogComponent}></Route>
+          <Route path='/single-blog' exact component={SingleBlogComponent}></Route>
+          <Route path='/element' exact component={ElementComponent}></Route>
+          <Route path='/contact' exact component={ContactComponent}></Route>
+        </Switch>
+        <Footer></Footer>
+      </div>
+    </Router>
   );
 }
+
 
 export default App;

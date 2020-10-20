@@ -1,0 +1,14 @@
+@import '../../Style/_responsive.scss';
+@import '../../Style/_mixins.scss';
+@import '../../Style/_variable.scss';
+
+.blog-component {
+  .section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .boxed-btn {
+    color: rgb(0, 157, 255) !important;
+  }
+}
