@@ -1,4 +1,14 @@
 @import '../../Style/_responsive.scss';
 @import '../../Style/_mixins.scss';
 @import '../../Style/_variable.scss';
+@import "~bootstrap/scss/bootstrap";
 
+.room-component {
+  .reservation-infomation-table {
+    padding: 60px 0;
+
+    &__title {
+      padding-bottom: 25px;
+    }
+  }
+}

@@ -7,23 +7,17 @@ import Room from '../better-room/better-room';
 import ResevationAndQuery from '../reservation-query/reservation-query';
 import Instagram from '../instagram/instagram';
 
-export class HomePageComponent extends Component {
-  static propTypes = {
-
-  }
-
-  render() {
-    return (
-      <Fragment>
-        <Slider></Slider>
-        <AboutArea ></AboutArea>
-        <Offers ></Offers>
-        <Room></Room>
-        <ResevationAndQuery></ResevationAndQuery>
-        <Instagram></Instagram>
-      </Fragment>
-    )
-  }
+function HomePageComponent() {
+  return (
+    <Fragment>
+      <Slider></Slider>
+      <AboutArea ></AboutArea>
+      <Offers ></Offers>
+      <Room></Room>
+      <ResevationAndQuery></ResevationAndQuery>
+      <Instagram></Instagram>
+    </Fragment>
+  )
 }
 
 export default HomePageComponent

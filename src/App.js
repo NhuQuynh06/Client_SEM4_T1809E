@@ -6,6 +6,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
+//  component
 import { Header } from './Component/Header/header';
 import { Footer } from './Component/Footer/footer';
 import HomeComponent from './Component/MainComponent/homepage-component/homepage-component';

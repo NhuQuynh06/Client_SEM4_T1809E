@@ -1,10 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 
-export class ComtactComponent extends Component {
-  static propTypes = {
 
-  }
+export class ComtactComponent extends Component {
 
   render() {
     return (
@@ -18,3 +16,4 @@ export class ComtactComponent extends Component {
 }
 
 export default ComtactComponent
+

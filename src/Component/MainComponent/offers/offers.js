@@ -26,13 +26,6 @@ class Offers extends React.Component {
 
   }
 
-  incrementFive() {
-    this.increment();
-    this.increment();
-    this.increment();
-    this.increment();
-    this.increment();
-  }
 
   render() {
     return (
