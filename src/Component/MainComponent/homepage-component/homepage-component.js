@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react'
-import PropTypes from 'prop-types';
 import Slider from '../slider/slider';
 import AboutArea from '../about_area/about_area';
 import Offers from '../offers/offers';
