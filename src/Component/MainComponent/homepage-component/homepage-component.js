@@ -1,10 +1,11 @@
-import React, { Component, Fragment } from 'react'
-import Slider from '../slider/slider';
-import AboutArea from '../about_area/about_area';
-import Offers from '../offers/offers';
-import Room from '../better-room/better-room';
-import ResevationAndQuery from '../reservation-query/reservation-query';
-import Instagram from '../instagram/instagram';
+import React, { Component, Fragment } from 'react';
+
+import Slider from '../../Page/slider/slider';
+import AboutArea from '../../Page/about_area/about_area';
+import Offers from '../../Page/offers/offers';
+import Room from '../../Page/better-room/better-room';
+import ResevationAndQuery from '../../Page/reservation-query/reservation-query';
+import Instagram from '../../Page/instagram/instagram';
 
 function HomePageComponent() {
   return (
